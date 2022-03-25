@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1001,
+        "laptopName": "Avita Magus Celeron N3350 12.2' FHD Laptop Pastel Violet",
+        "processor": "ntel Celeron Processor N3350 (1.10 GHz-2.40 GHz 2 MB Cache Cores: 2 Threads: 2) ",
+        "storage": "4GB RAM, 64GB eMMC ",
+        "price": "230$",
+        "diplay": "12.2' TFT (1920 x 1200)Touch Display",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/avita/megus/magus-violet-01-228x228.jpg"
+    },
+    {
+        "id": 1002,
+        "laptopName": "AVITA Essential 14 Celeron N4020 256GB SSD 14' Full HD Laptop Concrete Grey Color",
+        "processor": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz)",
+        "storage": "4GB LPDDR4 RAM, 256GB SATA M.2 SSD ",
+        "price": "230$",
+        "diplay": "12.2' TFT (1920 x 1200)Touch Display",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/avita/essential-14/essential-14-01-228x228.jpg"
+    },
+    {
+        "id": 1003,
+        "laptopName": "AVITA Essential 14 Celeron N4020 256GB SSD 14' Full HD Laptop Matt White Color",
+        "processor": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz",
+        "storage": "4GB LPDDR4 RAM, 256GB SATA M.2 SSD  ",
+        "price": "300$",
+        "diplay": "12.2' TFT (1920 x 1200)Touch Display",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/avita/essential-14/essential-14-03-228x228.jpg"
+    },
+    {
+        "id": 1004,
+        "laptopName": "AVITA Essential 14 Celeron N4020 256GB SSD 14' Full HD Laptop Matt Black Color",
+        "processor": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz) ",
+        "storage": "4GB LPDDR4 RAM, 256GB SATA M.2 SSD  ",
+        "price": "300$",
+        "diplay": "14' FHD (1920 x 1080) IPS Display",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/avita/essential-14/essential-14-02-228x228.jpg"
+    },
+    {
+        "id": 1005,
+        "laptopName": "Chuwi HeroBook Pro Intel Celeron N4020 14.1 inch Full HD Laptop with Windows 10",
+        "processor": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz)",
+        "storage": "8GB LPDDR4 RAM, 256GB SATA M.2 SSD  ",
+        "price": "480$",
+        "diplay": "14.1 Inch(1920 x 1080) IPS Anti-Glare Display",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/chuwi/herobook/herobook-pro/herobook-pro-1-228x228.jpg"
+    },
+    {
+        "id": 1006,
+        "laptopName": "HP 15s-du1115TU Celeron N4020 15.6 HD Laptop",
+        "processor": "Intel Celeron N4020 (1.1 GHz up to 2.8 GHz, 2 cores) ",
+        "storage": "4 GB DDR4 2400MHz RAM , 1 TB 5400 rpm SATA HDD  ",
+        "price": "450$",
+        "diplay": "15.6' HD (1366 x 768) Display",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du1115tu/15s-du1115tu-01-228x228.jpg"
+    },
+    {
+        "id": 1007,
+        "laptopName": "HP 15s-du1114TU Celeron N4020 15.6' HD Laptop",
+        "processor": "Intel Celeron N4020 (1.1 GHz up to 2.8 GHz, 2 cores) ",
+        "storage": "4 GB DDR4 2400MHz RAM , 1 TB 5400 rpm SATA HDD  ",
+        "price": "420$",
+        "diplay": "15.6' HD (1366 x 768) Display",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du1114tu/15s-du1114tu-01-228x228.jpg"
+    },
+    {
+        "id": 1008,
+        "laptopName": "Asus Vivobook X515MA Celeron N4020 15.6' HD Laptop",
+        "processor": "Processor: Intel Celeron N4020 (4M Cache, 1.10 GHz up to 2.80 GHz) ",
+        "storage": "Memory: 4GB DDR4 RAM , Storage: 1TB 5400RPM HDD ",
+        "price": "340$",
+        "diplay": "Display: 15.6' HD (1366 x 768)",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-228x228.jpg"
+    },
+    {
+        "id": 1009,
+        "laptopName": "Lenovo IdeaPad Slim 3i 15IGL Intel Celeron N4020 15.6' HD Laptop",
+        "processor": "Processor: Intel Celeron N4020 (4M Cache, 1.10 GHz up to 2.80 GHz) ",
+        "storage": "Memory: 4GB DDR4 2400MHz RAM , Storage: 1TB 5400rpm 2.5' HDD ",
+        "price": "350$",
+        "diplay": "Display: 15.6″ HD (1366×768)",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-slim-3i/ideapad-slim-3i-0010-228x228.jpg"
+    }
+]

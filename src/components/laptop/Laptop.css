@@ -1,0 +1,26 @@
+.laptop-container {
+	width: 290px;
+	border-radius: 8px;
+	background: white;
+    margin-right: 15px;
+    margin-bottom: 15px;
+	
+}
+.laptop-container img{}
+.laptop-info{
+    text-align: left;
+}
+.laptop-info h5 {
+	margin: 10px 15px;
+	font-size: 15px;
+}
+.laptop-info ul {
+	padding-left: 0;
+	padding: 29px;
+	padding-top: 0;
+}
+.laptop-info ul li{}
+.laptop-container button {
+	width: 171px;
+	padding: 6px 0;
+}
