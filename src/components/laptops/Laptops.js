@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Carts from '../carts/Carts';
 import Laptop from '../laptop/Laptop';
 import './Laptops.css'
 
@@ -19,7 +20,7 @@ const Laptops = () => {
                 }
             </div>
             <div className='carts-container'>
-                <h4>order summary</h4>
+                <Carts></Carts>
             </div>
         </div>
 

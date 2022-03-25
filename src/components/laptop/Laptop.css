@@ -30,3 +30,21 @@
 	bottom: 5px;
 	left: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .laptop-container img {
+        width: 160px;
+    }
+    .laptops-container {
+        width: 65%;
+    }
+    .laptop-container button {
+        width: 160px;
+        padding: 6px 0;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+        font-size: 13px;
+    }
+	
+}

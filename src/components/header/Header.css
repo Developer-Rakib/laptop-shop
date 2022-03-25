@@ -16,3 +16,19 @@
 	font-weight: 900;
     font-size: 16px;
 }
+
+@media screen and (max-width: 600px) {
+	.header-container {
+		padding: 0 21px;
+	}
+	.header-container img {
+		width: 95px;
+	}
+	.header-container ul li {
+		list-style: none;
+		display: inline-block;
+		margin: 7px;
+		font-weight: 500;
+		font-size: 14px;
+	}
+}
