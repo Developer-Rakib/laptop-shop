@@ -4,7 +4,7 @@
 	background: white;
     margin-right: 15px;
     margin-bottom: 15px;
-	
+	position: relative;
 }
 .laptop-container img{}
 .laptop-info{
@@ -19,8 +19,14 @@
 	padding: 29px;
 	padding-top: 0;
 }
-.laptop-info ul li{}
+.laptop-info ul li {
+	font-size: 14px;
+	margin-bottom: 7px;
+}
 .laptop-container button {
 	width: 171px;
 	padding: 6px 0;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Laptop.css';
+import { BsCartPlus } from 'react-icons/bs';
 
 const Laptop = ({ laptopData }) => {
     console.log(laptopData);
@@ -16,7 +17,7 @@ const Laptop = ({ laptopData }) => {
                     <li>{storage}</li>
                 </ul>
             </div>
-            <button>Add to Cart</button>
+            <button>Add to Cart <BsCartPlus></BsCartPlus></button>
         </div>
     );
 };
