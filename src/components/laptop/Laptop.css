@@ -51,18 +51,36 @@
 
 @media screen and (max-width: 600px) {
     .laptop-container img {
-        width: 160px;
+        width: 130px;
     }
-    .laptops-container {
-        width: 65%;
+    
+    .laptop-container {
+        width: 171px;
+        border-radius: 8px;
+        margin-right: 6px;
+        margin-bottom: 10px;
     }
     .laptop-container button {
-        width: 160px;
-        padding: 6px 0;
+        width: 113px;
+        padding: 5px 0;
         position: absolute;
-        bottom: 5px;
+        bottom: 6px;
         left: 10px;
+        font-size: 12px;
+    }
+    .laptop-info h5 {
+        margin: 8px 12px;
         font-size: 13px;
     }
+    .laptop-info ul li {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    .laptop-info ul {
+        padding-left: 0;
+        padding: 18px;
+        padding-top: 0;
+    }
+    
 	
 }

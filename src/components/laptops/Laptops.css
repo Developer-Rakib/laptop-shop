@@ -18,5 +18,19 @@
 
 
 @media screen and (max-width: 600px) {
+	.laptops-container {
+        margin: 8px;
+        width: 47%;
+    }
+	.carts-container {
+		width: 50%;
+		margin-top: 8px;
+		border-radius: 8px;
+		max-height: 500px;
+		position: sticky;
+		top: 0;
+		padding: 0px 10px;
+		overflow: scroll;
+	}
 	
 }

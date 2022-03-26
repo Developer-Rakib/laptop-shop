@@ -27,5 +27,9 @@
 }
 
 @media screen and (max-width: 600px) {
+	.cart-Items h4 {
+		font-size: 15px;
+		margin: 16px 0;
+	}
 	
 }

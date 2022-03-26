@@ -26,5 +26,21 @@
 }
 
 @media screen and (max-width: 600px) {
-	
+	.cart-container {
+        padding: 0 4px;
+        margin: 7px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cart-info h5 {
+        margin: 0;
+        padding-bottom: 5px;
+        font-size: 13px;
+    }
+    .cart-info h4 {
+        margin: 0;
+        font-size: 14px !important;
+        margin: 8px 0 !important;
+        margin-top: 0 !important;
+    }
 }
