@@ -1,11 +1,30 @@
-.random-item{
+/* .random-item{
     display: flex;
     align-items: center;
 }
 .random-item img{
     width: 100px;
 }
-.random-item h4{}
+.random-item h4{} */
+.cart-Items{}
+.cart-Items h4 {
+	font-size: 23px;
+}
+.cart-Items button {
+	padding: 10px 13px;
+	border: none;
+	border-radius: 5px;
+	background: #198754;
+	color: white;
+	margin: 3px 0;
+	font-weight: 700;
+    bottom: 5px;
+    font-size: 13px;
+    
+}
+.cart-Items button:active {
+	padding: 12px 15px;
+}
 
 @media screen and (max-width: 600px) {
 	

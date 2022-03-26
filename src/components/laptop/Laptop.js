@@ -1,6 +1,6 @@
 import React from 'react';
 import './Laptop.css';
-import { BsCartPlus } from 'react-icons/bs';
+import { HiShoppingCart } from 'react-icons/hi';
 
 const Laptop = ({ laptopData, hndleCart }) => {
     let { img, laptopName, processor, storage, price } = laptopData
@@ -16,7 +16,7 @@ const Laptop = ({ laptopData, hndleCart }) => {
                     <li>{storage}</li>
                 </ul>
             </div>
-            <button onClick={() => hndleCart(laptopData)}>Add to Cart <BsCartPlus></BsCartPlus></button>
+            <button onClick={() => hndleCart(laptopData)}>Add to Cart <HiShoppingCart className='cart-icon'></HiShoppingCart></button>
         </div>
     );
 };

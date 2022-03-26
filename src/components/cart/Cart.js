@@ -8,7 +8,7 @@ const Cart = ({ cartItem }) => {
             <img src={img} alt="" />
             <div className='cart-info'>
                 <h5>{laptopName.slice(0, 25)}</h5>
-                <h4>{price}</h4>
+                <h4>Price: {price}</h4>
             </div>
 
         </div>

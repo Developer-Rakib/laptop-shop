@@ -1,0 +1,24 @@
+.question-items {
+	text-align: left;
+	width: 70%;
+	margin: 0 auto;
+}
+.question-items h2 {
+	margin: 0;
+}
+.question-item {
+	display: flex;
+}
+.question-item h4 {
+	font-size: 20px;
+	margin: 10px 0;
+}
+.question-item ul {
+	margin-top: 0;
+}
+.question-item h3 {
+	margin: 5px;
+}
+.question-item p {
+	margin: 5px;
+}

@@ -34,7 +34,7 @@ const Laptops = () => {
     // handle add to cart 
     const hndleCart = (selectedItems) => {
         if (unicItems.length > 3) {
-            alert("More then 4 items not Allow");
+            alert("You cannot Add more than 4");
             return
         }
         setCartItems([...cartItems, selectedItems])
