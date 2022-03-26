@@ -1,4 +1,11 @@
-
+.random-item{
+    display: flex;
+    align-items: center;
+}
+.random-item img{
+    width: 100px;
+}
+.random-item h4{}
 
 @media screen and (max-width: 600px) {
 	
