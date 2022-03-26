@@ -8,13 +8,12 @@
 	width: 25%;
 	background: white;
 	margin-right: 15px;
-	margin-top: 80px;
+	margin-top: 15px;
 	border-radius: 8px;
-	max-height: 400px;
+	max-height: 600px;
 	position: sticky;
-    top: 0;
-    /* overflow: scroll; */
-
+	top: 0;
+	overflow: scroll;
 }
 
 

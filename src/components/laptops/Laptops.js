@@ -8,6 +8,7 @@ import './Laptops.css';
 const Laptops = () => {
     let [laptopsData, setLaptops] = useState([]);
     let [cartItems, setCartItems] = useState([])
+    let [randomItem, setRandomItem] = useState([])
     useEffect(() => {
         fetch('laptop.json')
             .then(res => res.json())
@@ -17,6 +18,13 @@ const Laptops = () => {
     const hndleCart = (selectedItems) => {
         setCartItems([...cartItems, selectedItems])
     }
+    const choseItemHndle = () => {
+        // console.log(cartItems.length);
+        let randomIndex = Math.floor(Math.random() * (cartItems.length - 0) + 0);
+        // let randomID = Math.floor(Math.random() * (1010 - 1001 + 1) + 1001);
+        let randomLaptop = cartItems[randomIndex];
+        setRandomItem(randomLaptop)
+    }
     return (
         <div style={{ display: "flex", position: "relative" }}>
             <div className='laptops-container'>
@@ -25,8 +33,9 @@ const Laptops = () => {
                 }
             </div>
             <div className='carts-container'>
-                <Carts cartItems={cartItems}></Carts>
+                <Carts cartItems={cartItems} choseItemHndle={choseItemHndle} randomItem={randomItem}></Carts>
             </div>
+
         </div>
 
     );

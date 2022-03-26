@@ -3,7 +3,6 @@ import './Cart.css';
 
 const Cart = ({ cartItem }) => {
     let { img, laptopName, processor, storage, price } = cartItem;
-    console.log(cartItem);
     return (
         <div className='cart-container'>
             <img src={img} alt="" />
