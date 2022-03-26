@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Carts from '../carts/Carts';
-import Laptop from '../laptop/Laptop';
+import Carts from '../Carts/Carts';
+import Laptop from '../Laptop/Laptop';
 import './Laptops.css'
 
 import './Laptops.css';

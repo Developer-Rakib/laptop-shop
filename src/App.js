@@ -1,6 +1,7 @@
 import './App.css';
-import Header from './components/header/Header';
-import Laptops from './components/laptops/Laptops';
+import Header from './components/Header/Header';
+import Laptops from './components/Laptops/Laptops';
+
 
 function App() {
   return (
