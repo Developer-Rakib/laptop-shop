@@ -3,8 +3,8 @@ import Cart from '../Cart/Cart';
 import './Carts.css'
 
 const Carts = ({ cartItems, choseItemHndle, randomItem }) => {
-    // console.log(randomItem);
-    let { img, laptopName } = randomItem
+    console.log(randomItem);
+    // let { img , laptopName } = randomItem
     return (
         <div>
             <h4>Selected laptops</h4>
@@ -14,8 +14,8 @@ const Carts = ({ cartItems, choseItemHndle, randomItem }) => {
             <button onClick={choseItemHndle}>Chose for Me</button>
             <button>Reset</button>
             <div className='random-item'>
-                <img src={img} alt="" />
-                <h4>{laptopName.slice(0, 25)}</h4>
+                <img src={randomItem?.img} alt="" />
+                <h4>{randomItem?.laptopName.slice(0, 25)}</h4>
             </div>
         </div>
     );

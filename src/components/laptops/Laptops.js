@@ -19,11 +19,11 @@ const Laptops = () => {
         setCartItems([...cartItems, selectedItems])
     }
     const choseItemHndle = () => {
-        // console.log(cartItems.length);
         let randomIndex = Math.floor(Math.random() * (cartItems.length - 0) + 0);
         // let randomID = Math.floor(Math.random() * (1010 - 1001 + 1) + 1001);
         let randomLaptop = cartItems[randomIndex];
         setRandomItem(randomLaptop)
+
     }
     return (
         <div style={{ display: "flex", position: "relative" }}>
