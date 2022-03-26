@@ -7,20 +7,25 @@ import './Laptops.css';
 
 const Laptops = () => {
     let [laptopsData, setLaptops] = useState([]);
+    let [cartItems, setCartItems] = useState([])
     useEffect(() => {
         fetch('laptop.json')
             .then(res => res.json())
             .then(data => setLaptops(data))
     }, [])
+
+    const hndleCart = (selectedItems) => {
+        setCartItems([...cartItems, selectedItems])
+    }
     return (
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", position: "relative" }}>
             <div className='laptops-container'>
                 {
-                    laptopsData.map(laptopData => <Laptop key={laptopData.id} laptopData={laptopData}></Laptop>)
+                    laptopsData.map(laptopData => <Laptop key={laptopData.id} laptopData={laptopData} hndleCart={hndleCart}></Laptop>)
                 }
             </div>
             <div className='carts-container'>
-                <Carts></Carts>
+                <Carts cartItems={cartItems}></Carts>
             </div>
         </div>
 

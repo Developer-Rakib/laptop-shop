@@ -1,3 +1,23 @@
+.cart-container{
+    display: flex;
+    
+}
+.cart-container img {
+	width: 85px;
+}
+.cart-info {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    color: rgb(85, 85, 85);
+}
+.cart-info h4{
+    margin: 0;
+}
+.cart-info h5{
+    margin: 0;
+    padding-bottom: 5px;
+}
 
 @media screen and (max-width: 600px) {
 	
