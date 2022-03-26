@@ -58,16 +58,23 @@ const Laptops = () => {
     }
 
     return (
-        <div style={{ display: "flex", position: "relative" }}>
-            <div className='laptops-container'>
-                {
-                    laptopsData.map(laptopData => <Laptop key={laptopData.id} laptopData={laptopData} hndleCart={hndleCart}></Laptop>)
-                }
+        <div>
+            <div className='shop-name'>
+                <h2>Discount Laptop Shop</h2>
+                <h3>Choose 4 Laptops</h3>
             </div>
-            <div className='carts-container'>
-                <Carts unicItems={unicItems} choseItemHndle={choseItemHndle} resetCart={resetCart}></Carts>
-            </div>
+            <div style={{ display: "flex", position: "relative" }}>
 
+                <div className='laptops-container'>
+                    {
+                        laptopsData.map(laptopData => <Laptop key={laptopData.id} laptopData={laptopData} hndleCart={hndleCart}></Laptop>)
+                    }
+                </div>
+                <div className='carts-container'>
+                    <Carts unicItems={unicItems} choseItemHndle={choseItemHndle} resetCart={resetCart}></Carts>
+                </div>
+
+            </div>
         </div>
 
     );

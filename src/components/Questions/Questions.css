@@ -22,3 +22,23 @@
 .question-item p {
 	margin: 5px;
 }
+@media screen and (max-width:600px) {
+	h1{
+		font-size: 25px ;
+	}
+	.question-item {
+		display: flex;
+		flex-direction: column;
+	}
+	.question-items h2 {
+		font-size: 17px;
+	}
+	.question-item h4 {
+		font-size: 16px;
+		margin: 8px 0;
+	}
+	.question-item ul {
+		margin-top: 0;
+		padding-left: 5px;
+	}
+}

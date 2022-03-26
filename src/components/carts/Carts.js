@@ -12,7 +12,7 @@ const Carts = ({ unicItems, choseItemHndle, resetCart }) => {
             {
                 unicItems.map(cartItem => <Cart key={cartItem.id} cartItem={cartItem}></Cart>)
             }
-            <button onClick={choseItemHndle}>Chose for Me</button> <br />
+            <button onClick={choseItemHndle}>Chose 1 for Me</button> <br />
             <button onClick={resetCart} style={{ background: "brown" }}>Reset</button>
         </div>
     );
